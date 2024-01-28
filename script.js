@@ -41,7 +41,7 @@ const songs = [
         name: "Shape-of-You",
         title: "Shape-of-You",
         artist: "Ed Sheeran",
-    },
+    }
 ]
 let isPlaying=false;
 
