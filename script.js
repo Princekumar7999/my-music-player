@@ -16,7 +16,32 @@ const songs = [
         name: "thapa-2",
         title: "Perfect",
         artist: "ED Sheeran",
-    }
+    },
+    {
+        name: "Banni",
+        title: "Banni",
+        artist: "Kapil Jangir",
+    },
+    {
+        name: "laagi-lagan",
+        title: "laagi-lagan",
+        artist: "Hansraj Raghuvanshi",
+    },
+    {
+        name: "Love-Me-Like-You-Do",
+        title: "Love-Me-Like-You-Do",
+        artist: "Ellie Goulding",
+    },
+    {
+        name: "Ranjha",
+        title: "Ranjha",
+        artist: "Jasleen Royal",
+    },
+    {
+        name: "Shape-of-You",
+        title: "Shape-of-You",
+        artist: "Ed Sheeran",
+    },
 ]
 let isPlaying=false;
 

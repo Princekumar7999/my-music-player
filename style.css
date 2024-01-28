@@ -108,7 +108,7 @@ box-shadow:0 1rem 2rem 0.2rem rgba(0,0,0,0,4);
 }
 
 /* add anime class to animate */
-.anime{
+.img_container{
     animation: rotatePlayer 3s linear infinite;
 }
 @keyframes rotatePlayer{
