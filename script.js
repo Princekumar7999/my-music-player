@@ -58,8 +58,8 @@ const songs = [
         artist: "Led Zeppelin",
     },
     {
-        name: "mera_mann_kehne_laga",
-        title: "mera_mann_kehne_laga",
+        name: "mera_mann_kehne",
+        title: "mera_mann_kehne",
         artist: "Rashid Khan",
     },
     {
