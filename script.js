@@ -72,11 +72,7 @@ const songs = [
         title: "Thousand_Years",
         artist: "Christina Perri",
     },
-    {
-        name: "until-i-found-you",
-        title: "until-i-found-you",
-        artist: "Stephen Sanchez",
-    }
+   
 ]
 let isPlaying=false;
 
