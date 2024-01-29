@@ -8,12 +8,12 @@ const next = document.getElementById("next");
 
 const songs = [
     {
-        name: "thapa-1",
+        name: "Despacito",
         title: "Despacito",
         artist: "FT. DADDY YANKEE",
     },
     {
-        name: "thapa-2",
+        name: "perfect",
         title: "Perfect",
         artist: "ED Sheeran",
     },
@@ -41,6 +41,41 @@ const songs = [
         name: "Shape-of-You",
         title: "Shape-of-You",
         artist: "Ed Sheeran",
+    },
+    {
+        name: "until-i-found-you",
+        title: "until-i-found-you",
+        artist: "Stephen Sanchez",
+    },
+    {
+        name: "Emotional_Atyachaar",
+        title: "Emotional_Atyachaar",
+        artist: "Band Master Rangeela",
+    },
+    {
+        name: "Immigrant",
+        title: "Immigrant",
+        artist: "Led Zeppelin",
+    },
+    {
+        name: "mera_mann_kehne_laga",
+        title: "mera_mann_kehne_laga",
+        artist: "Rashid Khan",
+    },
+    {
+        name: "Numb-Little-Bug",
+        title: "Numb-Little-Bug",
+        artist: " Em Beihold",
+    },
+    {
+        name: "Thousand_Years",
+        title: "Thousand_Years",
+        artist: "Christina Perri",
+    },
+    {
+        name: "until-i-found-you",
+        title: "until-i-found-you",
+        artist: "Stephen Sanchez",
     }
 ]
 let isPlaying=false;
@@ -73,7 +108,7 @@ const loadSong=(songs) =>{
     title.textContent = songs.title;
     artist.textContent = songs.artist;
     music.src="music/"+songs.name+".mp3";
-    img.src="images/"+songs.name+".jpg";
+    img.src="images/"+songs.name+".jpeg";
 };
 songIndex=0;
 //loadSong(songs[1]);
